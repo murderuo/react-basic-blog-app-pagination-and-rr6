@@ -1,0 +1,45 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('./assets/css/bootstrap.css');
+
+@import url('./assets/fonts/stylesheet.css');
+
+/* font-family: 'Lora Regular'; */
+
+.ff-lora {
+  font-family: 'Lora Regular';
+}
+
+.pagination {
+  display: inline-block;
+
+  margin: 0 auto;
+}
+
+.pagination-item {
+  display: inline-block;
+  padding: 3px;
+  margin: auto;
+  border: 1px solid blueviolet;
+  text-align: center;
+  width: 30px;
+}
+
+.pagination-item a {
+  text-decoration: none;
+  color: blue;
+}
+
+.pagination-item .noclick {
+  pointer-events: none;
+}
+
+.perpage-div {
+  margin-top: 15px;
+}
